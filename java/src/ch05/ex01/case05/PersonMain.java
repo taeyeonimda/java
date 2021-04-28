@@ -22,6 +22,8 @@ public class PersonMain {
 		person.age = 50;
 		String name = person.name;
 		int age = person.age;
+	
+		System.out.println("이름:"+name+", 나이:"+age);
 		
 	}
 }

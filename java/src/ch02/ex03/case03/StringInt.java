@@ -5,10 +5,10 @@ public class StringInt {
 		int i =1;
 		String str = "" + i;
 		System.out.println("i: "+ i );
+		System.out.println(str.getClass());
 		
 		i =Integer.parseInt(str);
 		int result = i+1;
 		System.out.println("result: "+ result);
-		
 	}
 }

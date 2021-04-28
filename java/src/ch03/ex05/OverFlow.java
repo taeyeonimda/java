@@ -14,7 +14,5 @@ public class OverFlow {
 		System.out.println(x);
 		int y = 1000000 / 1000000 * 1000000;
 		System.out.println(y);
-		
-		
 	}
 }

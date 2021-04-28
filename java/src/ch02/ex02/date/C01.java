@@ -13,6 +13,5 @@ public class C01 {
 		System.out.println(localDate);
 		System.out.println(localTime);
 		System.out.println(localDateTime);
-	
 	}
 }

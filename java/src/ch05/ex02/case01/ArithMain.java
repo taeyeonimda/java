@@ -6,9 +6,10 @@ public class ArithMain {
 	arith.setFirstNum(1);
 	arith.setSecondNum(2);
 	
-	int result = arith.getFirstNum()+arith.getSecondNum();
-	result = arith.getFirstNum()-arith.getSecondNum();
-	result = arith.getFirstNum()*arith.getSecondNum();
-	result = arith.getFirstNum()/arith.getSecondNum();
+	int result = arith.getFirstNum()+arith.getSecondNum();System.out.println(result);
+	result = arith.getFirstNum()-arith.getSecondNum();System.out.println(result);
+	result = arith.getFirstNum()*arith.getSecondNum();System.out.println(result);
+	result = arith.getFirstNum()/arith.getSecondNum();System.out.println(result);
+	
 	}
 }

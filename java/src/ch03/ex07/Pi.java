@@ -12,16 +12,16 @@ public class Pi {
 		double cc = c%100;
 		double f = (int)c;
 		System.out.printf("%.1f\n",f);
-		System.out.println(cc);
+		System.out.println("cc="+cc);
 		
 		
-		/*double ff = 3.141592;
+		double ff = 3.141592;
 		
 		double result = ff - ff %1;
 		System.out.println(result);
 		
 		result = Math.floor(ff);
-		System.out.println(result);     같이 한거 */
+		System.out.println(result);     
 		
 		
 	}

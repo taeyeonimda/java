@@ -10,6 +10,5 @@ public class C05Grade {
 		else grade ='C';
 		System.out.println(grade+"학점");
 		
-		
 	}
 }

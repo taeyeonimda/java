@@ -7,5 +7,7 @@ public class C02Final {
 		
 		final double PI = 3.14;
 		double are = PI *3 *3;
+		
+		System.out.println(are);
 	}
 }

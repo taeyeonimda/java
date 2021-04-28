@@ -6,6 +6,7 @@ public class MainPerson {
 		person.setName("최한석");
 		person.setAge(25);
 		
+		
 		System.out.printf("이름:%s, 나이: %d",
 				person.getName(),person.getAge());
 	}

@@ -20,11 +20,6 @@ public class Reservation {
 		
 		LocalDate.now();
 		System.out.println("오늘은 " +LocalDate.now()+"일 입니다.");
-	
-	
-		
-			
-		
 	}
 }
 
