@@ -10,7 +10,7 @@ public class Man {
 	}
 	
 	public String tell(String msg) {
-		msg = "a";
+		msg = "안녕하세요";
 		return msg;
 		
 	}

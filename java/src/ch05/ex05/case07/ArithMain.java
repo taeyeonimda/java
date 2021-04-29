@@ -5,6 +5,6 @@ public class ArithMain {
 		Arith arith = new Arith();
 		int x = 10;
 		int result = arith.toHalf(x);
-		System.out.printf("x: %d\n result: %d",x,result);
+		System.out.printf("x: %d\nresult: %d",x,result);
 	}
 }

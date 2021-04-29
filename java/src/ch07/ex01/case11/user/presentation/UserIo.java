@@ -16,10 +16,10 @@ public class UserIo {
 		String isRepeat = "";
 		
 		do {
-			level = Console.inNum("등급을 입력하세요.");
+			level = Console.inNum("등급을 입력하세요.->");
 			user = userService.findUser(level);
 			Console.info(user);
-			isRepeat = Console.inStr("또 다른 사용자를 찾을까요?");
+			isRepeat = Console.inStr("또 다른 사용자를 찾을까요.->(y/n)?");
 		}while(isRepeat.equals("y"));
 	}
 }

@@ -6,6 +6,6 @@ public class StackMain {
 		Stack stack = new Stack();
 		System.out.println("main()시작"+a);
 		stack.first();
-		System.out.println("main()종료"+a);
+		System.out.println("main()종료");
 	}
 }

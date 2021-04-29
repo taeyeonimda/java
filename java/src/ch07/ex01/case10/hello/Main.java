@@ -14,6 +14,6 @@ public class Main {
 		userIo.say();
 		
 		userIo.setUserService(userEng);
-		userIo.setUserService(userKor);
+		userIo.say();
 	}
 }

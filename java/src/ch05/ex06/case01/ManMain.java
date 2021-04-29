@@ -6,8 +6,8 @@ public class ManMain {
 		
 		Man man = new Man();
 		man.say("자바를 사랑합니다.");
-		man.telll("꾸아");
-		System.out.println(man.tell("a"));
+		man.telll("하하");
+		System.out.println(man.tell("안되는것"));
 
 	}
 }

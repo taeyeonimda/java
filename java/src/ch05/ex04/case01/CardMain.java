@@ -24,5 +24,12 @@ public class CardMain {
 				card1.kind, card1.number, card1.widgth, card1.height);
 		System.out.printf("%s, %d, %d, %d\n",
 				card1.kind, card1.number, Card.widgth, Card.height);
+		
+		card2.widgth = 50;
+		card2.height = 60;
+		System.out.printf("%s, %d, %d, %d\n",
+				card2.kind, card2.number, card2.widgth, card2.height);
+		System.out.printf("%s, %d, %d, %d\n",
+				card2.kind, card2.number, Card.widgth, Card.height);
 	}
 }

@@ -7,6 +7,7 @@ public class Score {
 	
 	private int sum;
 	private int avg;
+	
 	public int getKor() {
 		return kor;
 	}

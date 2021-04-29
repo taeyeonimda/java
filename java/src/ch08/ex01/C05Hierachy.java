@@ -16,12 +16,13 @@ public class C05Hierachy {
 	public void second() {
 		try {
 			int i = 3/ 0 ;
-		}catch (Exception e) {
+	/*	}
+		catch (Exception e) {
 			System.out.println("second: Exception");
-		}
-	/*	}catch(RuntimeException e) {
+		}*/
+		}catch(RuntimeException e) {
 			System.out.println("second: RuntimeException");
-	}*/
+	}
 	}
 	public static void main(String[]args) {
 		C05Hierachy hierachy = new C05Hierachy();

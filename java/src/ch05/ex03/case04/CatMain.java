@@ -9,5 +9,6 @@ public class CatMain {
 		
 		cat1.eat();
 		cat2.sleep();
+		
 	}
 }

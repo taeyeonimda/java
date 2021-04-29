@@ -14,6 +14,10 @@ public class Tv {
 	public void channeldown() {
 		--channel;
 	}
+	public String getColor() {
+		return color;
+	}
+	
 	public int getChannel() {
 		return channel;
 	}

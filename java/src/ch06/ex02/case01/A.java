@@ -2,7 +2,7 @@ package ch06.ex02.case01;
 
 public class A {
 	private int a;
-	int b; // 기본제한다 default
+	int b; // 기본제한자 default
 	protected int c;
 	public int d;
 	

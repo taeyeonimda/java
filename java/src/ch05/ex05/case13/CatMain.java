@@ -7,7 +7,7 @@ public class CatMain {
 
 		Cat baby = mommy.breed();
 		baby.setName("이쁜이");
-		System.out.printf("mommy:%s\n baby:%s",
+		System.out.printf("mommy:%s\nbaby:%s",
 				mommy.getName(),baby.getName());
 	}
 }

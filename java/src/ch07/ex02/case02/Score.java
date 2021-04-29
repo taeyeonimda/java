@@ -7,7 +7,7 @@ public class Score {
 		int[] score = {100,50,100,50};
 		
 		for(int i =0; i<score.length; i++)sum +=score[i];
-		avg = 1.0* sum / score.length;
+		avg = sum / score.length;
 		
 		System.out.printf("sum : %d , avg : %.1f",sum, avg);
 	}
